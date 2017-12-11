@@ -146,6 +146,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="run.cpp" />
+    <ClCompile Include="SigCameraCalibration.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SigCameraCalibration.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
